@@ -6,6 +6,7 @@ services:
       - 5005:5005
     volumes:
       - ./:/app
+      - ./endpoints.yml:/app/endpoints.yml
     command:
       - run
   action_server:
