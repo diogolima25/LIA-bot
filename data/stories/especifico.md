@@ -6,6 +6,9 @@
 ## interactive_story_1
 * cumprimentar
     - utter_cumprimentar
+    - utter_ask_nome
+* informar_nome{"nome": "thiago"}
+    - slot{"nome": "thiago"}
 * comprar{"tipo_imovel": "casa"}
     - utter_comprar
     - usuario_form
